@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Gino
+Build-Jdk: 11.0.2
+Implementation-Title: JavaSrExam
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.mx.prueba
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/JavaSrExam
+Created-By: Maven Integration for Eclipse
+
