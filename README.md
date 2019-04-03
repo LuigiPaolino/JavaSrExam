@@ -25,9 +25,9 @@ spring.datasource.password=tx43wm4FBqtC<br>
 You have to modify the highlighted properties with your oun data base connection information:
 
 spring.jpa.hibernate.ddl-auto=create<br>
-spring.datasource.url=jdbc:mysql://<b>localhost:3306/MYSQL_EXAM</b>?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true<br>
+spring.datasource.url=jdbc:mysql://<b>YOUR_DB_IP:YOUR_DB_PORT/YOUR_DB_NAME</b>?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true<br>
 #spring.datasource.url=jdbc:oracle:thin://adb.us-ashburn-1.oraclecloud.com:1522/offxnzvwdri7hub_mysqlexamdb_medium.atp.oraclecloud.com<br>
-spring.datasource.username=<b>ADMIN</b><br>
-spring.datasource.password=<b>tx43wm4FBqtC</b><br>
+spring.datasource.username=<b>DB User</b><br>
+spring.datasource.password=<b>DB Password</b><br>
 
 Thancks
