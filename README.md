@@ -16,18 +16,18 @@ Search for the file /JavaSrExam/src/main/resources/application.properties
 
 The file look like this:
 
-spring.jpa.hibernate.ddl-auto=create
-spring.datasource.url=jdbc:mysql://localhost:3306/MYSQL_EXAM?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-#spring.datasource.url=jdbc:oracle:thin://adb.us-ashburn-1.oraclecloud.com:1522/offxnzvwdri7hub_mysqlexamdb_medium.atp.oraclecloud.com
-spring.datasource.username=ADMIN
-spring.datasource.password=tx43wm4FBqtC
+spring.jpa.hibernate.ddl-auto=create<br>
+spring.datasource.url=jdbc:mysql://localhost:3306/MYSQL_EXAM?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true<br>
+#spring.datasource.url=jdbc:oracle:thin://adb.us-ashburn-1.oraclecloud.com:1522/offxnzvwdri7hub_mysqlexamdb_medium.atp.oraclecloud.com<br>
+spring.datasource.username=ADMIN<br>
+spring.datasource.password=tx43wm4FBqtC<br>
 
 You have to modify the highlighted properties with your oun data base connection information:
 
-spring.jpa.hibernate.ddl-auto=create
-spring.datasource.url=jdbc:mysql://<b>localhost:3306/MYSQL_EXAM</b>?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-#spring.datasource.url=jdbc:oracle:thin://adb.us-ashburn-1.oraclecloud.com:1522/offxnzvwdri7hub_mysqlexamdb_medium.atp.oraclecloud.com
-spring.datasource.username=<b>ADMIN</b>
-spring.datasource.password=<b>tx43wm4FBqtC</b>
+spring.jpa.hibernate.ddl-auto=create<br>
+spring.datasource.url=jdbc:mysql://<b>localhost:3306/MYSQL_EXAM</b>?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&allowPublicKeyRetrieval=true<br>
+#spring.datasource.url=jdbc:oracle:thin://adb.us-ashburn-1.oraclecloud.com:1522/offxnzvwdri7hub_mysqlexamdb_medium.atp.oraclecloud.com<br>
+spring.datasource.username=<b>ADMIN</b><br>
+spring.datasource.password=<b>tx43wm4FBqtC</b><br>
 
 Thancks
